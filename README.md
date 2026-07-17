@@ -38,8 +38,7 @@ mon-portfolio/
 │   ├── project4.jpg        # Capture d'écran projet "Galerie du Congo"
 │   ├── project5.jpg        # Capture d'écran projet "TaskFlow"
 │   └── project6.jpg        # Capture d'écran projet "Cartes Produits"
-└── .gitignore              # Fichier d'exclusion Git (DS_Store, fichiers temporaires, etc.)
-```
+└── .README.md            
 
 ## ⚙️ Installation et utilisation
 
