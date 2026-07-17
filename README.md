@@ -1,5 +1,7 @@
 #  Portfolio Personnel - Thomas ISSOKO
 
+Deployment  📌-   https://mon-portfolio-kohl.vercel.app/
+
 ## 📌 Description
 
 Ce projet est un portfolio personnel complet et professionnel, conçu pour présenter mon parcours, mes compétences techniques et mes réalisations en tant que développeur web Full Stack en devenir. Il s'agit d'une vitrine interactive et moderne qui regroupe l'ensemble de mes projets académiques et personnels réalisés dans le cadre de ma formation à l'Akieni Academy. Ce portfolio a pour objectif de démontrer ma maîtrise des technologies front-end fondamentales, ma capacité à créer des interfaces utilisateur responsives et accessibles, ainsi que ma progression dans le domaine du développement web. Il constitue un outil de présentation essentiel pour mon insertion professionnelle et me permet de partager mon travail avec des recruteurs, des collaborateurs potentiels ou toute personne intéressée par mon profil. Le site est entièrement responsive, accessible sur tous les appareils, et intègre des fonctionnalités modernes telles que le mode sombre et des animations au scroll pour offrir une expérience utilisateur fluide et agréable.
@@ -86,3 +88,5 @@ Plusieurs améliorations pourraient être apportées à ce portfolio pour le ren
 ## 👨‍💻 Auteur
 
 **ISSOKO Thomas** - Développeur Full Stack en devenir
+
+Deployment  📌-   https://mon-portfolio-kohl.vercel.app/
