@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- ============================================================
+    META-DONNÉES : Encodage, responsive, SEO, compatibilité
+    ============================================================ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Thomas ISSOKO - Développeur Web Full Stack en devenir">
+    <meta name="author" content="Thomas ISSOKO">
+    <title>Portfolio - Thomas ISSOKO</title>
+
+    <!-- ============================================================
+    GOOGLE FONTS : Typographie moderne (Poppins)
+    ============================================================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ============================================================
+    FONTAWESOME : Icônes (réseaux sociaux, etc.)
+    ============================================================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- ============================================================
+    FEUILLE DE STYLE PRINCIPALE
+    ============================================================ -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ==========================================================
+    BARRE DE NAVIGATION
+    ========================================================== -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <!-- Logo / Nom -->
+            <a href="#hero" class="logo">Thomas ISSOKO</a>
+
+            <!-- Menu (liens vers les sections) -->
+            <ul class="nav-menu">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Bouton mode dark -->
+                <li>
+                    <button id="theme-toggle" class="theme-btn" aria-label="Changer le thème">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Menu burger pour mobile (affiché uniquement sur petit écran) -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==========================================================
+    SECTION 1 : HERO (Accueil)
+    ========================================================== -->
+    <section id="hero">
+        <div class="container hero-container">
+            <!-- Photo de profil -->
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Photo de Thomas ISSOKO">
+            </div>
+
+            <!-- Texte -->
+            <div class="hero-content">
+                <h1>Salut, je suis <span>Thomas ISSOKO</span></h1>
+                <p class="hero-subtitle">Développeur Web Full Stack | Créatif | Passionné</p>
+                <p class="hero-description">
+                    Je crée des sites web modernes, responsives et accessibles.
+                    Découvrez mon travail ci-dessous !
+                </p>
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================
+    SECTION 2 : ABOUT (À propos)
+    ========================================================== -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-container fade-in">
+                <div class="about-text">
+                    <p>
+                        Bonjour ! Je suis <strong>Thomas ISSOKO</strong>, un développeur web passionné par la création
+                        d'expériences numériques engageantes et accessibles. Évoluant dans le domaine de l'informatique 
+                        depuis environ deux ans, j'ai acquis une expérience pratique principalement axée sur les bases 
+                        de données et le développement web.
+                    </p>
+                    <p>
+                        Actuellement en formation <strong>Full Stack</strong> au sein de l'académie <strong>Akieni Academy</strong>,
+                        je renforce mes compétences techniques à travers des projets réels, des exercices pratiques et 
+                        un apprentissage continu des technologies modernes.
+                    </p>
+                    <p>
+                        <strong>Ce que j'aime :</strong> le design, le code propre, l'accessibilité, résoudre des problèmes créatifs,
+                        et travailler sur des projets concrets qui ont un impact réel. Je m'inscris dans une dynamique de 
+                        progression constante avec l'objectif de devenir un développeur complet, capable de concevoir et 
+                        de développer des solutions web performantes.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="Illustration à propos de Thomas ISSOKO">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================
+    SECTION 3 : SKILLS (Compétences)
+    ========================================================== -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Mes compétences</h2>
+            <div class="skills-container fade-in">
+                <!-- Compétence 1 -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML5</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Compétence 2 -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">CSS3 / Flexbox / Grid</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <!-- Compétence 3 -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 65%;"></div>
+                    </div>
+                </div>
+
+                <!-- Compétence 4 -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Bases de données (SQL)</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <!-- Compétence 5 -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Git / GitHub</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Compétence 6 -->
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Responsive Design</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================
+    SECTION 4 : PROJETS (Galerie)
+    ========================================================== -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Mes projets</h2>
+            <div class="projects-grid fade-in">
+                <!-- Projet 1 : Site Vitrine Brazzaville -->
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Site vitrine Les Tresses Dorées" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>Les Tresses Dorées</h3>
+                        <p>Site vitrine pour un salon de coiffure à Brazzaville.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Git</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/thomas-issoko/site-vitrine-brazzaville" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Les Tresses Dorées est un site vitrine professionnel développé pour un salon de coiffure situé à Brazzaville, République du Congo. Présente l'entreprise locale, ses services, et permet aux clients de prendre contact facilement.</p>
+                    </div>
+                </div>
+
+                <!-- Projet 2 : Restaurant Saveurs du Congo -->
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Restaurant Saveurs du Congo" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>Saveurs du Congo</h3>
+                        <p>Site vitrine pour un restaurant de cuisine congolaise.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/thomas-issoko/restaurant" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Site vitrine pour le Restaurant Saveurs du Congo avec menu interactif complet, navigation multi-sections, fiches détaillées pour chaque plat, tableau comparatif des prix et formulaire de réservation en ligne.</p>
+                    </div>
+                </div>
+
+                <!-- Projet 3 : Dashboard Admin -->
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Dashboard Admin" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>Dashboard Admin</h3>
+                        <p>Interface d'administration moderne et responsive.</p>
+                        <div class="project-tags">
+                            <span>CSS Grid</span>
+                            <span>Flexbox</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/thomas-issoko/dashboard-admin" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Dashboard Admin est une interface d'administration moderne avec des statistiques financières en Francs CFA (FCFA), suivi des commandes, espaces graphiques et menu de navigation latéral. Maîtrise des layouts complexes avec CSS Grid et Flexbox.</p>
+                    </div>
+                </div>
+
+                <!-- Projet 4 : Galerie du Congo -->
+                <div class="project-card">
+                    <img src="images/project4.jpg" alt="Galerie du Congo" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>Galerie du Congo</h3>
+                        <p>Galerie photo responsive avec CSS Grid.</p>
+                        <div class="project-tags">
+                            <span>CSS Grid</span>
+                            <span>Lightbox</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/thomas-issoko/galerie-grid" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Galerie du Congo est un projet de galerie photo responsive utilisant CSS Grid pour créer une mise en page dynamique. Présente 9 images des paysages et de la culture du Congo-Brazzaville avec superpositions interactives et lightbox.</p>
+                    </div>
+                </div>
+
+                <!-- Projet 5 : TaskFlow Landing Page -->
+                <div class="project-card">
+                    <img src="images/project5.jpg" alt="TaskFlow Landing Page" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>TaskFlow</h3>
+                        <p>Landing page pour une application de gestion de tâches.</p>
+                        <div class="project-tags">
+                            <span>CSS3</span>
+                            <span>Variables CSS</span>
+                            <span>SaaS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/thomas-issoko/landing" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>TaskFlow est une landing page professionnelle pour une application web de gestion de tâches. Présente un produit SaaS avec toutes les sections classiques : présentation, fonctionnalités, témoignages, plans tarifaires et appel à l'action.</p>
+                    </div>
+                </div>
+
+                <!-- Projet 6 : Cartes Produits -->
+                <div class="project-card">
+                    <img src="images/project6.jpg" alt="Cartes Produits E-commerce" class="project-thumbnail">
+                    <div class="project-info">
+                        <h3>Cartes Produits</h3>
+                        <p>Page de présentation de produits style e-commerce.</p>
+                        <div class="project-tags">
+                            <span>CSS3</span>
+                            <span>UI/UX</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/thomas-issoko/projet-carte-produit" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-hover">
+                        <p>Page web de présentation de produits sous forme de cartes stylisées, inspirée des grandes plateformes de e-commerce. Présente 5 produits avec images, prix en FCFA, notation par étoiles, badges et boutons d'action.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================
+    SECTION 5 : EXPÉRIENCE (Timeline)
+    ========================================================== -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Mon parcours</h2>
+            <div class="timeline fade-in">
+                <!-- Élément 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2024 - Présent</h3>
+                        <h4>Formation Full Stack - Akieni Academy</h4>
+                        <p>Renforcement des compétences techniques à travers des projets réels, des exercices pratiques et un apprentissage continu des technologies modernes. Développement de compétences en HTML5, CSS3, JavaScript, Git/GitHub et bases de données.</p>
+                    </div>
+                </div>
+
+                <!-- Élément 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2023 - 2024</h3>
+                        <h4>Développement Web - Pratique Autonome</h4>
+                        <p>Acquisition d'une expérience pratique principalement axée sur les bases de données et le développement web. Travail en autonomie avec des ressources limitées, développement d'une forte capacité d'adaptation, de résolution de problèmes et de discipline personnelle.</p>
+                    </div>
+                </div>
+
+                <!-- Élément 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2022 - 2023</h3>
+                        <h4>Découverte du Développement Web</h4>
+                        <p>Début de l'aventure dans le domaine de l'informatique. Découverte des bases du développement web et passion pour le code. Premiers projets et apprentissage des fondamentaux HTML et CSS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================
+    SECTION 6 : CONTACT
+    ========================================================== -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Me contacter</h2>
+            <div class="contact-container fade-in">
+                <!-- Formulaire -->
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Sujet de votre message">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+
+                <!-- Infos de contact -->
+                <div class="contact-info">
+                    <h3>Retrouvez-moi</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:thomas.issoko@email.com">thomas.issoko@email.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+242123456789">+242 12 345 6789</a></p>
+                    <div class="social-links">
+                        <a href="https://github.com/thomas-issoko" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-dev"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================
+    SECTION 7 : FOOTER
+    ========================================================== -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content fade-in">
+                <p>&copy; 2026 Thomas ISSOKO. Tous droits réservés.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/thomas-issoko" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================================
+    SCRIPTS
+    ========================================================== -->
+    <script>
+        // =====================================================
+        // 1. MENU BURGER (mobile)
+        // =====================================================
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Fermer le menu quand on clique sur un lien (mobile)
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // =====================================================
+        // 2. MODE DARK
+        // =====================================================
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        // Vérifier si un thème est déjà enregistré dans localStorage
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark-mode');
+            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        }
+
+        // Au clic sur le bouton
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            
+            // Changer l'icône
+            if (body.classList.contains('dark-mode')) {
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+                localStorage.setItem('theme', 'light');
+            }
+        });
+
+        // =====================================================
+        // 3. ANIMATIONS AU SCROLL
+        // =====================================================
+        
+        // Sélectionner tous les éléments avec la classe 'fade-in'
+        const fadeElements = document.querySelectorAll('.fade-in');
+
+        // Fonction qui vérifie si un élément est visible à l'écran
+        function checkVisibility() {
+            fadeElements.forEach(element => {
+                // Calculer la position de l'élément par rapport à la fenêtre
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                // Si l'élément est dans la zone visible (avec un léger décalage)
+                if (elementTop < windowHeight - 100) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        // Vérifier au chargement de la page
+        checkVisibility();
+
+        // Vérifier à chaque fois qu'on scroll
+        window.addEventListener('scroll', checkVisibility);
+
+        console.log('Portfolio de Thomas ISSOKO prêt avec animations ! 🚀');
+    </script>
+</body>
+</html>
